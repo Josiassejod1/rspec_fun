@@ -1,4 +1,4 @@
-require '../MVC2.rb'
+require_relative '../MVC2'
 RSpec.describe MVC2 do
   describe '#show_all' do
     it 'should show a character' do

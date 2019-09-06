@@ -53,7 +53,7 @@ RSpec.describe Movie do
       expect(stuntman).to receive(:ready?)
     #  expect(stuntman).to receive(:act)
       expect(stuntman).to receive(:fall_off_ladder)
-      #expect(stuntman).to receive(:act).twice
+      expect(stuntman).to receive(:act).twice
        expect(stuntman).to receive(:act).at_most(2).times
     #  expect(stuntman).to receive(:act).at_least(2).times
     #  expect(stuntman).to receive(:light_on_fire).once
